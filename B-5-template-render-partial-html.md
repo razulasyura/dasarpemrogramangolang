@@ -37,7 +37,7 @@ func main() {
 }
 ```
 
-Tipe `M` merupakan alias dari `map[string]interface{}`, disiapkan untuk mempersingkan penulisan tipe map tersebut. Di bab-bab selanjutnya kita akan banyak menggunakan tipe ini.
+Tipe `M` merupakan alias dari `map[string]interface{}`, disiapkan untuk mempersingkat penulisan tipe map tersebut. Di bab-bab selanjutnya kita akan banyak menggunakan tipe ini.
 
 Pada kode di atas, di dalam fungsi `main()`, fungsi `template.ParseGlob()` dipanggil, dengan parameter adalah pattern path `"views/*"`. Fungsi ini digunakan untuk memparsing semua file yang match dengan pattern yang ditentukan, dan fungsi ini mengembalikan 2 objek: `*template.Template` & `error`.
 
